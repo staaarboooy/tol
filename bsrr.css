@@ -180,3 +180,108 @@
   font-weight: 700;
   text-align: center;
 }
+
+/*post*/
+.bsrr-post {
+  border: 2px solid #f8abb6;
+  border-radius: 3px;
+  width: 600px;
+  margin: auto;
+  box-sizing: border-box;
+  min-height: 500px;
+  overflow: hidden;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 12px;
+  line-height: 120%;
+  color: var(--color1);
+  background: /*#f8abb6*/;
+  padding: 60px;
+}
+
+.bsrr-post .bsrr-header {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  
+}
+
+.bsrr-post .bsrr-tit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bsrr-post .bsrr-tit span {
+  font-family: 'Bodoni Moda';
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  display: block;
+  color: var(--color1);
+  line-height: 100%;
+  margin: -6px 0px;
+}
+
+.bsrr-post .bsrr-tit div {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--fam);
+  line-height: 100%;
+}
+
+.bsrr-post.borbon {--fam: #FABD00;}
+
+.bsrr-post.sanchez {--fam: #df211d;}
+
+.bsrr-post .bsrr-pjpic {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #f8abb6;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.bsrr-post .bsrr-pjpic div {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(1);
+}
+
+.bsrr-post .bsrr-rol {
+  line-height: 120%;
+  font-size: 12px;
+  hyphens: auto;
+  word-break: break-word;
+  text-align: justify;
+  margin: 60px 0px;
+}
+
+.bsrr-post .bsrr-rol:first-letter {
+  color: var(--fam);
+  font-family: 'Bodoni Moda';
+  font-weight: 900;
+  font-size: 360%;
+  font-style: italic;
+  margin: 0px 6px 3px 6px;
+  float: left;
+  text-transform: uppercase;
+}
+
+.bsrr-post .bsrr-datos {
+  background: #f8abb6;
+  padding: 12px 0px;
+  border-radius: 3px;
+  color: var(--color1);
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
