@@ -1,3 +1,5 @@
+/*starter*/
+
 .bsrr-starter {
   border: 2px solid #f8abb6;
   border-radius: 3px;
@@ -126,6 +128,7 @@
   opacity: 1;
   background-blend-mode: multiply;
   opacity: 0;
+  transition: 2s;
 }
 
 .bsrr-pjs .bsrr-pj .pj-name {
