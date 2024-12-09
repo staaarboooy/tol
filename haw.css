@@ -1,4 +1,4 @@
-.tab-sb-credit a {
+.tab-sb-credit a:before {
   content: "\f7d4";
   font-family: 'Font Awesome 6 Pro';
   color: var(--accent2);
