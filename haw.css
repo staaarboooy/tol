@@ -1,0 +1,300 @@
+.tab-sb-credit a {
+  content: "\f7d4";
+  font-family: 'Font Awesome 6 Pro';
+  color: var(--accent2);
+  text-align: center;
+  margin-top: -12px;
+  display: block;
+  font-weight: 700;
+}
+
+/*resumen*/
+
+.haw-tab.rsm {
+  --accent1b: #273791;
+  --accent2b: #d1262c;
+  --accent1t: #628440;
+  --accent2t: #841d6c;
+  width: 600px;
+  padding: 24px;
+  background-image: linear-gradient(90deg,var(--accent1b), var(--accent1t));
+  margin: auto;
+  border-radius: calc(12px + 60px + 24px);
+  border: var(--border1);
+  box-sizing: border-box;
+}
+
+.haw-tab .billy { --accent1: var(--accent1b); --accent2: var(--accent2b); }
+.haw-tab .teddy { --accent1: var(--accent1t); --accent2: var(--accent2t); }
+
+.haw-rsm {
+  width: 100%;
+  margin: auto;
+  border: var(--border2);
+  min-height: 400px;
+  box-sizing: border-box;
+  padding: 60px;
+  border-radius: calc(12px + 60px);
+  color: var(--color1);
+  background: var(--bkgr1);
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.haw-rsm .haw-data {
+  font-family: 'Inter';
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--color1);
+  opacity: 0.4;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  line-height: 100%;
+}
+
+.haw-rsm .haw-tit {
+  text-align: center;
+  font-family: 'Audiowide';
+  text-transform: uppercase;
+  line-height: 90%;
+  font-weight: 700;
+  color: var(--color1);
+  font-size: 72px;
+}
+
+.haw-rsm .haw-subtit {
+  font-family: 'Audiowide';
+  line-height: 90%;
+  font-weight: 400;
+  font-size: 18px;
+  width: 71%;
+  margin-left: 29%;
+  text-align: left;
+}
+
+.haw-rsm .haw-tit span b { background-image: linear-gradient(45deg,var(--accent1), var(--accent2)); }
+
+.haw-rsm .haw-tit span:before {
+  content: "and";
+  color: #000;
+  font-size: 36px;
+  vertical-align: top;
+  margin-right: 10px;
+  margin-top: -12px;
+  display: inline-block;
+}
+
+.haw-rsm .haw-tit b {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.25px var(--color1);
+}
+
+.haw-rsm .haw-tit div b { background-image: linear-gradient(45deg,var(--accent2), var(--accent1)); }
+
+.haw-rsm .haw-intro {
+  font-family: 'Inter';
+  font-size: 12px;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.haw-rsm .haw-chrs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.haw-rsm .haw-chr {
+  display: flex;
+  align-items: center;
+}
+
+.haw-rsm .haw-chr.par .chr-info {order: 1;}
+.haw-rsm .haw-chr.par .chr-pic {order: 2;}
+
+.haw-rsm .haw-chr .chr-pic {
+  min-width: 125px;
+  height: 100px;
+  background-image: linear-gradient(45deg,var(--accent1), var(--accent2));
+}
+
+.haw-rsm .haw-chr .chr-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: soft-light;
+  filter: grayscale(1);
+}
+
+.haw-rsm .haw-chr.impar .chr-pic:after {
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border: 50px solid var(--bkgr1);
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-width: 50px 18px;
+  float: right;
+  margin-top: -100px;
+  position: relative;
+  z-index: 2;
+}
+
+.haw-rsm .haw-chr.par .chr-pic:before {
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border: 50px solid var(--bkgr1);
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-width: 50px 18px;
+  float: left;
+  margin-top: 00px;
+  position: relative;
+  z-index: 2;
+}
+
+.haw-rsm .haw-chr.impar .chr-info { text-align: right; }
+
+.haw-rsm .haw-chr .chr-info {
+  width: 100%;
+  text-align: left;
+  font-family: 'Inter';
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.haw-rsm .haw-chr .chr-name {
+  font-family: 'Audiowide';
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 100%;
+  color: var(--accent1);
+}
+
+.haw-rsm .haw-chr .chr-name i { color: var(--accent2); }
+
+
+/*tablilla rol*/
+
+.haw-tab.rol {
+  --accent1b: #273791;
+  --accent2b: #d1262c;
+  --accent1t: #628440;
+  --accent2t: #841d6c;
+  width: 600px;
+  padding: 24px;
+  background-image: linear-gradient(135deg,var(--accent1)50%, var(--accent2));
+  margin: auto;
+  border-radius: calc(12px + 60px + 24px);
+  border: var(--border1);
+  box-sizing: border-box;
+}
+
+.haw-tab.billy { --accent1: var(--accent1b); --accent2: var(--accent2b); }
+.haw-tab.teddy { --accent1: var(--accent1t); --accent2: var(--accent2t); }
+
+.haw-rol {
+  width: 100%;
+  margin: auto;
+  border: var(--border2);
+  min-height: 400px;
+  box-sizing: border-box;
+  padding: 60px;
+  border-radius: calc(12px + 60px);
+  color: var(--color1);
+  background: var(--bkgr1);
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.haw-rol u {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--accent1);
+}
+
+.haw-rol .haw-tit {
+  display: flex;
+  align-items: center;
+  line-height: 100%;
+  margin-top: 24px;
+}
+
+.haw-rol .haw-tit b {
+  font-family: 'Audiowide';
+  color: var(--accent2);
+  opacity: 0.4;
+  font-size: 60px;
+}
+
+.haw-rol .haw-tit span {
+  font-family: 'Audiowide';
+  color: var(--accent1);
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 100%;
+  margin-left: -24px;
+}
+
+.haw-rol .haw-tit div {
+  font-family: 'Inter';
+  color: var(--color1);
+  font-size: 9px;
+  line-height: 100%;
+  font-weight: 500;
+}
+
+.haw-rol .haw-text {
+  font-family: 'Inter';
+  font-size: 12px;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.haw-rol .haw-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.haw-rol .haw-data .haw-pic {
+  height: 108px;
+  width: 108px;
+  background: var(--accent1);
+  border-radius: 12px;
+  box-sizing: border-box;
+  border: 6px solid var(--accent1);
+  overflow: hidden;
+  background-size: cover;
+}
+
+.haw-rol .haw-data .haw-dts {
+  font-family: 'Inter';
+  font-size: 9px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  line-height: 100%;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+.haw-rol .haw-data .haw-dts strong {
+  font-weight: 400;
+  padding: 6px;
+  background: var(--accent2);
+  border-radius: 6px;
+  color: var(--bkgr1);
+}
