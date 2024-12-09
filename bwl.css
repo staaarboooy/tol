@@ -1,0 +1,287 @@
+/*resumen*/
+
+.bwl-rsm {
+  --accent1: #2e5090;
+  --accent2: #B8860B;
+  width: 600px;
+  min-height: 400px;
+  background-image: url(https://anewall.com/cdn/shop/products/foggy-hills-mural-wallpaper-5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--accent1);
+  background-blend-mode: multiply;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 72px;
+  border: 1px solid var(--accent2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 108px;
+  outline: 1px solid var(--accent2);
+  outline-offset: -24px;
+}
+
+.bwl-rsm .bwl-tit {
+  font-family: 'Kalnia';
+  text-transform: uppercase;
+  font-size: 84px;
+  line-height: 100%;
+  color: var(--accent2);
+  font-weight: 400;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.bwl-rsm .bwl-tit i {
+  color: var(--color2);
+  font-size: 36px;
+  display: block;
+  opacity: 0.6;
+}
+
+.bwl-rsm .bwl-tit span {
+  display: block;
+  line-height: 100%;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 15px;
+  font-weight: 200;
+  color: var(--color2);
+  text-transform: uppercase;
+  text-align-last: justify;
+  letter-spacing: 12px;
+  margin-left: 9px;
+}
+
+.bwl-rsm .bwl-body {
+  width: 100%;
+  min-height: 400px;
+  background-color: rgba(25,25,25,0.7);
+  border: 1px solid var(--accent2);
+  outline: 1px solid var(--accent2);
+  outline-offset: 24px;
+  box-sizing: border-box;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.bwl-rsm .bwl-intro {
+  color: #bebebe;
+  font-family: 'Raleway';
+  font-size: 12px;
+  line-height: 130%;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  width: 100%;
+}
+
+.bwl-rsm .bwl-chrs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: stretch;
+}
+
+.bwl-rsm .bwl-chrs .bwl-chr {
+  min-width: calc(50% - 36px);
+  max-width: calc(50% - 24px);
+  margin: 12px;
+  box-sizing: border-box;
+  height: 120px;
+  outline: 1px solid var(--accent2);
+  outline-offset: 11px;
+  background-size: cover;
+}
+
+.bwl-rsm .bwl-chrs .chr-pic {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-color: var(--accent2);
+  background-position: center;
+}
+
+.bwl-rsm .bwl-chrs .chr-info {
+  box-sizing: border-box;
+  padding: 6px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(184,134,11,0.5);
+  backdrop-filter: blur(2px);
+  opacity: 0;
+  transition: 1s ease-out;
+  margin-top: -120px;
+  gap: 12px;
+}
+
+.bwl-rsm .bwl-chrs .bwl-chr:hover .chr-info {opacity: 1;}
+.bwl-rsm .bwl-chrs .bwl-chr:hover .chr-pic {filter: grayscale(1); background-blend-mode: multiply;}
+
+.bwl-rsm .bwl-chrs .chr-info div {
+  color: #fff;
+  font-family: 'Kalnia';
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.bwl-rsm .bwl-chrs .chr-info span {
+  color: #bebebe;
+  font-family: 'Raleway';
+  font-size: 9px;
+  line-height: 100%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.bwl-rsm .bwl-chrs .chr-info b { font-weight: 500; }
+
+.bwl-rsm .bwl-data {
+  font-family: 'Kalnia';
+  color: #bebebe;
+  font-weight: 300;
+  font-size: 12px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  line-height: 100%;
+}
+
+
+/*post de rol*/
+
+.bwl-tabrol {
+  --accent1: #2e5090;
+  --accent2: #B8860B;
+  width: 600px;
+  min-height: 400px;
+  background-image: url(https://anewall.com/cdn/shop/products/foggy-hills-mural-wallpaper-5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--accent1);
+  background-blend-mode: multiply;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 72px;
+  border: 1px solid var(--accent2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: calc(108px + 60px);
+  outline: 1px solid var(--accent2);
+  outline-offset: -24px;
+}
+
+.bwl-tabrol .bwl-cap {
+  font-family: 'Kalnia';
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 100%;
+  color: var(--accent2);
+  font-weight: 400;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.bwl-tabrol .bwl-cap span {
+  display: block;
+  line-height: 100%;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 200;
+  color: var(--color2);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 2px;
+}
+
+.bwl-tabrol .bwl-body {
+  width: 100%;
+  min-height: 400px;
+  background-color: rgba(25,25,25,0.7);
+  border: 1px solid var(--accent2);
+  outline: 1px solid var(--accent2);
+  outline-offset: 24px;
+  box-sizing: border-box;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.bwl-tabrol .bwl-rol {
+  color: #bebebe;
+  font-family: 'Raleway';
+  font-size: 12px;
+  line-height: 130%;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  width: 100%;
+}
+
+.bwl-tabrol .bwl-rol u {
+  color: var(--accent2);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.bwl-tabrol .bwl-rol strong {
+  color: var(--accent3);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.bwl-tabrol .bwl-chrs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-content: stretch;
+}
+
+.bwl-tabrol .bwl-chr {
+  width: 120px;
+  height: 120px;
+  margin: calc(-49px - 60px - 25px) auto 25px;
+  z-index: 3;
+  box-sizing: border-box;
+  outline: 1px solid var(--accent2);
+  border: 1px solid var(--accent2);
+  outline-offset: 24px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.bwl-tabrol .bwl-data {
+  font-family: 'Raleway';
+  color: #bebebe;
+  font-weight: 400;
+  font-size: 9px;
+  display: flex;
+  text-align: center;
+  gap: 24px;
+  justify-content: center;
+  line-height: 100%;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.bwl-tabrol .bwl-data d1, .bwl-tabrol .bwl-data d2 {width: 100%;}
+
+.bwl-tabrol .bwl-data .fa-solid { font-size: 24px; color: var(--accent2);}
+.bwl-tabrol .bwl-data d1 { text-align: right;}
+.bwl-tabrol .bwl-data d2 { text-align: left;}
