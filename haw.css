@@ -98,6 +98,7 @@
 .haw-rsm .haw-intro {
   font-family: 'Inter';
   font-size: 12px;
+  line-height: 120%;
   text-align: justify;
   word-break: break-word;
   hyphens: auto;
@@ -258,6 +259,7 @@
 .haw-rol .haw-text {
   font-family: 'Inter';
   font-size: 12px;
+  line-height: 120%;
   text-align: justify;
   word-break: break-word;
   hyphens: auto;
