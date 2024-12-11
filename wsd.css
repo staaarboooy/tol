@@ -1,0 +1,167 @@
+/*sketch*/
+
+.wsd-rsm {
+  width: 650px;
+  min-height: 400px;
+  border: var(--border1);
+  margin: auto;
+  border-radius: 60px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito Sans';
+  line-height: 0px;
+  font-size: 12px;
+  background: var(--bkgr2);
+  color: var(--color1);
+}
+
+.wsd-rsm .wsd-header {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://blog.cort.com/wp-content/uploads/2020/11/suburban-neighborhood-in-autumn.jpg);
+  background-color: #000000;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 120%;
+  padding-bottom: 40px;
+}
+
+.wsd-rsm .wsd-header div {
+  font-family: 'Gloock';
+  font-size: 36px;
+  color: var(--color2);
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+}
+
+.wsd-rsm .wsd-header span {
+  display: block;
+  font-family: 'Rubik Spray Paint';
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 1px;
+  line-height: 120%;
+} 
+
+.wsd-rsm .wsd-desc {
+  line-height: 120%;
+  background: var(--bkgr2);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px;
+  margin-top: -60px;
+  border-radius: 60px;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.wsd-rsm .wsd-data {
+  border: var(--border2);
+  border-radius: 10px;
+  height: 40px;
+  box-sizing: border-box;
+  margin: 0px 50px;
+  color: #bdbcbd;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Gloock';
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+  gap: 20px;
+}
+
+.wsd-rsm .wsd-chrs {
+  display: flex;
+  padding: 50px;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.wsd-rsm .wsd-chrs .wsd-pj {
+  border: 2px solid var(--accent1);
+  padding: 4px;
+  border-radius: 10px;
+  height: 150px;
+  width: calc(33% - 10px);
+  box-sizing: border-box;
+}
+
+.wsd-rsm .wsd-chrs .wsd-pic {
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-color: var(--accent1);
+  background-position: center;
+}
+
+.wsd-rsm .wsd-chrs .wsd-hov {
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent3);
+  color: var(--color2);
+  opacity: 0;
+  display: flex;
+  line-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.wsd-rsm .wsd-chrs .wsd-hov div {
+  font-family: 'Gloock';
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 5px;
+  line-height: 100%;
+}
+
+.wsd-rsm .wsd-chrs .wsd-hov span {
+  font-size: 9px;
+  text-transform: uppercase;
+  line-height: 9px;
+}
+
+.wsd-rsm .wsd-pj:hover .wsd-hov {
+  opacity: 1;
+  transition: 1s;
+}
+
+:root {
+  --db1: #b4a7cd;
+  --db2: #dadf04;
+  --dbt: rgba(180,167,205,0.9);
+  --fj1: #51c0da;
+  --fj2: #f18004;
+  --fjt: rgba(81,192,218,0.9);
+  --vd1: #fd982d;
+  --vd2: #c0123e;
+  --vdt: rgba(253,152,45,0.9);
+  --sr1: #c6d52d;
+  --sr2: #ba5d42;
+  --srt: rgba(199,213,45,0.9);
+  --sd1: #b67901;
+  --sd2: #89cdc7;
+  --sdt: rgba(182,122,1,0.9);
+  --scd1: #ebcc45;
+  --scd2: #33bfb8;
+  --scdt: rgba(235,205,69,0.9);
+}
+
+.wsd-pj.db { --accent1: var(--db1); --accent3: var(--dbt);}
+.wsd-pj.fj { --accent1: var(--fj1); --accent3: var(--fjt);}
+.wsd-pj.vd { --accent1: var(--vd1); --accent3: var(--vdt);}
+.wsd-pj.sr { --accent1: var(--sr1); --accent3: var(--srt);}
+.wsd-pj.sd { --accent1: var(--sd1); --accent3: var(--sdt);}
+.wsd-pj.scd { --accent1: var(--scd1); --accent3: var(--scdt);}
