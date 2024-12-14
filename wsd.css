@@ -431,3 +431,147 @@
   color: var(--accent1);
   margin-top: 12px;
 }
+
+/*tablilla rol*/
+
+.wsd-tabrol {
+  --accent1: #400303;
+  --accent2: #807c74;
+  width: 650px;
+  min-height: 400px;
+  border: var(--border1);
+  margin: auto;
+  border-radius: 60px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  font-family: 'Nunito Sans';
+  line-height: 0px;
+  font-size: 12px;
+  background: var(--bkgr2);
+  color: var(--color1);
+}
+
+.wsd-tabrol .wsd-leftbar {
+  background: var(--accent1);
+  width: 220px;
+  min-height: 200px;
+  padding: 60px;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 60px;
+  border-radius: 60px;
+  color: var(--color2);
+}
+
+.wsd-tabrol .wsd-leftbar .wsd-pic {
+  width: calc(100px - 4px - 12px);
+  height: calc(100px - 4px - 12px);
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: 2px solid var(--accent2);
+  outline-offset: 6px;
+  background-size: cover;
+}
+
+.wsd-tabrol .wsd-leftbar .wsd-tit {
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: 'Gloock';
+  font-size: 36px;
+  text-align: left;
+  line-height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  flex-direction: column;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wsd-tabrol .wsd-leftbar .wsd-tit span {
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.wsd-tabrol .wsd-leftbar .wsd-tit span:before {
+  display: inline-block;
+  content: "";
+  height: 12%;
+  width: 2px;
+  background: var(--accent2);
+  margin-bottom: 6px;
+  vertical-align: 1px;
+}
+
+.wsd-tabrol .wsd-mainbar {
+  background: var(--bkgr2);
+  width: 100%;
+  min-height: 400px;
+  padding: 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.wsd-tabrol .wsd-mainbar .wsd-rol {
+  line-height: 120%;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  font-size: 12px;
+  min-height: 200px;
+  width: 100%;
+}
+
+.wsd-tabrol .wsd-mainbar .wsd-rol strong {
+  color: var(--accent1);
+}
+
+.wsd-tabrol .wsd-mainbar .wsd-data {
+  display: flex;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
+.wsd-tabrol .wsd-mainbar .wsd-data span {
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 100%;
+  display: block;
+  padding: 6px;
+  border-radius: 6px;
+  background: var(--accent2);
+  color: var(--color2);
+}
+
+:root {
+  --db1: #b4a7cd;
+  --db2: #dadf04;
+  --fj1: #51c0da;
+  --fj2: #f18004;
+  --vd1: #fd982d;
+  --vd2: #c0123e;
+  --sr1: #c6d52d;
+  --sr2: #ba5d42;
+  --sd1: #b67901;
+  --sd2: #89cdc7;
+  --scd1: #ebcc45;
+  --scd2: #33bfb8;
+}
+
+.wsd-tabrol.db { --accent1: var(--db1); --accent2: var(--db2);}
+.wsd-tabrol.fj { --accent1: var(--fj1); --accent2: var(--fj2);}
+.wsd-tabrol.vd { --accent1: var(--vd1); --accent2: var(--vd2);}
+.wsd-tabrol.sr { --accent1: var(--sr1); --accent2: var(--sr2);}
+.wsd-tabrol.sd { --accent1: var(--sd1); --accent2: var(--sd2);}
+.wsd-tabrol.scd { --accent1: var(--scd1); --accent2: var(--scd2);}
