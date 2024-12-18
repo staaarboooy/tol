@@ -346,6 +346,14 @@
   max-height: 600px;
 }
 
+.wsd-exp.db { --accent1: var(--db1); --accent2: var(--db2);}
+.wsd-exp.fj { --accent1: var(--fj1); --accent2: var(--fj2);}
+.wsd-exp.vd { --accent1: var(--vd1); --accent2: var(--vd2);}
+.wsd-exp.sr { --accent1: var(--sr1); --accent2: var(--sr2);}
+.wsd-exp.sd { --accent1: var(--sd1); --accent2: var(--sd2);}
+.wsd-exp.scd { --accent1: var(--scd1); --accent2: var(--scd2);}
+
+
 /* Info */
 .wsd-topic {
   width: 650px;
