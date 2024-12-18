@@ -342,6 +342,8 @@
   font-size: 12px;
   min-height: 200px;
   width: 100%;
+  box-sizing: border-box;
+  padding: 0px 6px;
   overflow-y: auto;
   max-height: 600px;
 }
