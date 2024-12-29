@@ -203,3 +203,134 @@
 .twbt-chr.peter {--caccent: var(--cpeter);}
 .twbt-chr.severus {--caccent: var(--cseverus);}
 .twbt-chr.lily {--caccent: var(--clily);}
+
+/*Tablilla de rol*/
+.twbt-rol {
+  width: 550px;
+  box-sizing: border-box;
+  margin: 50px auto;
+  border: var(--border2);
+  background: var(--bkgr2);
+}
+
+.twbt-rol .twbt-header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.twbt-header .header-icon {
+  min-width: 108px;
+  min-height: 108px;
+  background: var(--bkgr1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  color: var(--caccent);
+  line-height: 100%;
+}
+
+.twbt-header .header-title {
+  width: calc(100% - 108px);
+  box-sizing: border-box;
+  background: var(--bkgr1);
+  border-left: var(--border2);
+  color: var(--color1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 24px;
+  text-transform: uppercase;
+  font-family: 'Imbue';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 80%;
+  max-height: 108px;
+}
+
+.twbt-header .header-subtitle {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bkgr2);
+  border-left: var(--border2);
+  text-align: center;
+  color: var(--color1);
+  padding: 12px;
+  border-top: var(--border2);
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Roboto Flex';
+}
+
+.twbt-rol .twbt-desc {
+  padding: 60px 60px;
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bkgr1);
+  border-top: var(--border2);
+  font-family: 'Roboto Flex';
+  font-size: 12px;
+  line-height: 120%;
+  color: var(--color1);
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.twbt-rol .twbt-desc strong {
+  color: var(--caccent);
+}
+
+.twbt-rol .twbt-data {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bkgr2);
+  text-align: center;
+  color: var(--color1);
+  padding: 12px 12px;
+  border-top: var(--border2);
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Roboto Flex';
+}
+
+.twbt-rol .twbt-data i {
+  font-size: 6px;
+  color: var(--caccent);
+  vertical-align: 1px;
+}
+
+.twbt-rol .twbt-pic {
+  min-width: 108px;
+  height: 108px;
+  background-size: cover;
+  background-color: var(--bkgr2);
+  background-blend-mode: luminosity;
+}
+
+.twbt-rol .twbt-pic c {
+  min-width: 108px;
+  height: 108px;
+  display: block;
+  background-color: var(--caccent);
+  mix-blend-mode: soft-light;
+}
+
+.twbt-rol .twbt-data sirius:before { content: "Sirius"; color: var(--csirius); }
+.twbt-rol .twbt-data marlene:before { content: "Marlene"; color: var(--cmarlene); }
+.twbt-rol .twbt-data regulus:before { content: "Regulus"; color: var(--cregulus); }
+.twbt-rol .twbt-data james:before { content: "James"; color: var(--cjames); }
+
+.twbt-rol.sirius {--caccent: var(--csirius);}
+.twbt-rol.marlene {--caccent: var(--cmarlene);}
+.twbt-rol.regulus {--caccent: var(--cregulus);}
+.twbt-crol.james {--caccent: var(--cjames);}
+.twbt-rol.remus {--caccent: var(--cremus);}
+.twbt-rol.jeremiah {--caccent: var(--cjeremiah);}
+.twbt-rol.sophie {--caccent: var(--csophie);}
+.twbt-rol.peter {--caccent: var(--cpeter);}
+.twbt-rol.severus {--caccent: var(--cseverus);}
+.twbt-rol.lily {--caccent: var(--clily);}
