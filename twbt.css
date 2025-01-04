@@ -344,3 +344,266 @@
 .twbt-rol.peter {--caccent: var(--cpeter);}
 .twbt-rol.severus {--caccent: var(--cseverus);}
 .twbt-rol.lily {--caccent: var(--clily);}
+
+/*expediente*/
+.twbt-exp {
+  width: 800px;
+  min-height: 300px;
+  margin: 50px auto;
+  border: var(--border2);
+  background: var(--bkgr2);
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 0%;
+}
+
+.twbt-exp .twbt-bloq1 {
+  width: 600px;
+  box-sizing: border-box;
+  border-right: var(--border2);
+  display: flex;
+  flex-wrap: wrap;
+  height: 454px;
+}
+
+.twbt-exp .twbt-icon {
+  min-width: 108px;
+  height: 108px;
+  background: var(--bkgr1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  color: var(--caccent);
+  line-height: 100%;
+}
+
+.twbt-exp .twbt-name {
+  width: calc(100% - 108px);
+  box-sizing: border-box;
+  background: var(--bkgr2);
+  border-left: var(--border2);
+  color: var(--color1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 24px;
+  text-transform: uppercase;
+  font-family: 'Imbue';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 80%;
+  max-height: 108px;
+}
+
+.twbt-exp .twbt-left {
+  width: 204px;
+  border-top: var(--border2);
+}
+
+.twbt-exp .twbt-pic {
+  min-width: 204px;
+  height: 204px;
+  background-size: cover;
+  background-color: var(--bkgr2);
+  background-blend-mode: luminosity;
+  background-position: center;
+}
+
+.twbt-exp .twbt-pic c {
+  min-width: 100%;
+  height: 100%;
+  display: block;
+  background-color: var(--caccent);
+  mix-blend-mode: soft-light;
+}
+
+.twbt-exp .twbt-info {
+  background: var(--bkgr1);
+  border-top: var(--border2);
+  box-sizing: border-box;
+  border-left: var(--border2);
+  height: 346px;
+  width: calc(100% - 204px);
+  padding: 60px;
+  font-family: 'Roboto Flex';
+  font-size: 12px;
+  line-height: 120%;
+  color: var(--color1);
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  overflow-y: auto;
+}
+
+.twbt-exp .twbt-data {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0px;
+  width: 100%;
+  line-height: 0%;
+}
+
+.twbt-exp .twbt-data span {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bkgr2);
+  text-align: right;
+  color: var(--color1);
+  padding: 12px;
+  line-height: 100%;
+  border-top: var(--border2);
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Roboto Flex';
+}
+
+.twbt-exp .twbt-data strong {
+  font-weight: 700;
+  float: left;
+  color: var(--caccent);
+}
+
+.twbt-exp .twbt-playlist {
+  width: 200px;
+  background: var(--bkgr2);
+  height: 100%;
+  box-sizing: border-box;
+  padding: 36px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  line-height: 0%;
+  height: 454px;
+}
+
+.twbt-exp .twbt-playlist div {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  gap: 6px;
+  line-height: 100%;
+  align-items: center;
+}
+
+.twbt-exp .twbt-playlist a {
+  text-decoration: none!important;
+  color: var(--caccent);
+}
+
+.twbt-exp .twbt-playlist a:before {
+  font-family: 'Font Awesome 6 Pro';
+  content: "\f144";
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.twbt-exp .twbt-playlist span {
+  font-family: 'Roboto Flex';
+  font-size: 9px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  line-height: 100%;
+}
+
+.twbt-exp .twbt-playlist strong {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--color1);
+  letter-spacing: 1px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.twbt-exp .twbt-apa {
+  width: 100%;
+  border-top: var(--border2);
+  border-bottom: var(--border2);
+  background: var(--bkgr1);
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 100%;
+  color: var(--color1);
+  padding: 24px;
+  line-height: 100%;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Roboto Flex';
+}
+
+.twbt-exp .twbt-relas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  line-height: 0%;
+  width: 100%;
+}
+
+.twbt-relas .relas-pj {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 132px;
+  width: 50%;
+  border: var(--border2);
+  margin: -1px;
+}
+
+.twbt-relas .relas-pic {
+  width: 132px;
+  height: 132px;
+  background-size: cover;
+  background-color: var(--bkgr2);
+  background-blend-mode: luminosity;
+  background-position: center;
+  border-right: var(--border2);
+}
+
+.twbt-relas .relas-name {
+  width: calc(100% - 133px);
+  border-bottom: var(--border2);
+  background: var(--bkgr2);
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 100%;
+  color: var(--color1);
+  padding: 12px;
+  line-height: 100%;
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Roboto Flex';
+}
+
+.twbt-relas .relas-desc {
+  background: var(--bkgr1);
+  box-sizing: border-box;
+  height: calc(132px - 34px);
+  width: calc(100% - 133px);
+  padding: 24px;
+  font-family: 'Roboto Flex';
+  font-size: 9px;
+  line-height: 120%;
+  color: var(--color1);
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  overflow-y: auto;
+}
+
+.twbt-exp.sirius {--caccent: var(--csirius);}
+.twbt-exp.marlene {--caccent: var(--cmarlene);}
+.twbt-exp.regulus {--caccent: var(--cregulus);}
+.twbt-exp.james {--caccent: var(--cjames);}
+.twbt-exp.remus {--caccent: var(--cremus);}
+.twbt-exp.jeremiah {--caccent: var(--cjeremiah);}
+.twbt-exp.sophie {--caccent: var(--csophie);}
+.twbt-exp.peter {--caccent: var(--cpeter);}
+.twbt-exp.severus {--caccent: var(--cseverus);}
+.twbt-exp.lily {--caccent: var(--clily);}
