@@ -157,6 +157,7 @@
   background-blend-mode: luminosity;
   box-sizing: border-box;
   padding: 0px;
+  line-height: 0px;
 }
 
 .twbt-rsm .chr-info {
@@ -176,6 +177,7 @@
   gap: 6px;
   transition: 1s ease-out;
   opacity: 0;
+  line-height: 100%;
 } 
 
 .twbt-chr:hover .chr-info {
@@ -184,12 +186,14 @@
 
 .twbt-rsm .chr-info i {
   font-size: 24px;
+  line-height: 100%;
 }
 
 .twbt-rsm .chr-info div {
   color: var(--caccent);
   font-family: 'Imbue';
   font-size: 30px;
+  line-height: 100%;
 }
 
 .twbt-rsm .chr-info span {
@@ -201,6 +205,7 @@
   color: var(--caccent);
   vertical-align: 1px;
   margin: 0px 3px;
+  line-height: 100%;
 }
 
 .twbt-chr.sirius {--caccent: var(--csirius);}
