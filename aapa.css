@@ -258,7 +258,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 36px;
+  gap: 12px;
 }
 
 .aapa-insc .aapa-title {
