@@ -338,13 +338,19 @@
 .twbt-rol .twbt-data marlene:before { content: "Marlene"; color: var(--cmarlene); }
 .twbt-rol .twbt-data regulus:before { content: "Regulus"; color: var(--cregulus); }
 .twbt-rol .twbt-data james:before { content: "James"; color: var(--cjames); }
+.twbt-rol .twbt-data remus:before { content: "Remus"; color: var(--cremus); }
+.twbt-rol .twbt-data bertram:before { content: "Bertram"; color: var(--cbertram); }
+.twbt-rol .twbt-data sophie:before { content: "Regulus"; color: var(--csophie); }
+.twbt-rol .twbt-data peter:before { content: "Peter"; color: var(--cpeter); }
+.twbt-rol .twbt-data severus:before { content: "Severus"; color: var(--cseverus); }
+.twbt-rol .twbt-data lily:before { content: "Lily"; color: var(--clily); }
 
 .twbt-rol.sirius {--caccent: var(--csirius);}
 .twbt-rol.marlene {--caccent: var(--cmarlene);}
 .twbt-rol.regulus {--caccent: var(--cregulus);}
 .twbt-rol.james {--caccent: var(--cjames);}
 .twbt-rol.remus {--caccent: var(--cremus);}
-.twbt-rol.jeremiah {--caccent: var(--cjeremiah);}
+.twbt-rol.bretram {--caccent: var(--cbetram);}
 .twbt-rol.sophie {--caccent: var(--csophie);}
 .twbt-rol.peter {--caccent: var(--cpeter);}
 .twbt-rol.severus {--caccent: var(--cseverus);}
@@ -607,7 +613,7 @@
 .twbt-exp.regulus {--caccent: var(--cregulus);}
 .twbt-exp.james {--caccent: var(--cjames);}
 .twbt-exp.remus {--caccent: var(--cremus);}
-.twbt-exp.jeremiah {--caccent: var(--cjeremiah);}
+.twbt-exp.bertram {--caccent: var(--cbertram);}
 .twbt-exp.sophie {--caccent: var(--csophie);}
 .twbt-exp.peter {--caccent: var(--cpeter);}
 .twbt-exp.severus {--caccent: var(--cseverus);}
