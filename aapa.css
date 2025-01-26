@@ -944,13 +944,13 @@
   gap: 36px;
 }
 
-.aapa-header .aapa-title {
+.aapa-tabrol .aapa-title {
   display: flex;
   flex-direction: column;
   gap: 0px;
 }
 
-.aapa-header .aapa-title strong {
+.aapa-tabrol .aapa-title strong {
   font-size: 18px;
   font-family: 'Cinzel';
   text-transform: uppercase;
@@ -959,7 +959,7 @@
   color: var(--accent1);
 }
 
-.aapa-header .aapa-title span {
+.aapa-tabrol .aapa-title span {
   font-size: 9px;
   font-family: 'Inter';
   text-transform: uppercase;
