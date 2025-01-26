@@ -839,7 +839,7 @@
   border: var(--border1);
   border-radius: 12px;
   flex-direction: column;
-  width: calc(33% - 8px);
+  width: calc(33.33% - 8px);
   box-sizing: border-box;
   height: 168px;
   overflow: hidden;
