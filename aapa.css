@@ -715,11 +715,11 @@
 
 /*lista personajes*/
 .aapa-pjlist {
-  width: 800px;
+  width: calc(100% - 40px);
   box-sizing: border-box;
   min-height: 400px;
   border: var(--border1);
-  margin: auto;
+  margin: 0px 20px;
   border-radius: 12px;
   line-height: 0%;
   display: flex;
@@ -727,7 +727,6 @@
   overflow: hidden;
   --taccent: rgba(133, 96, 136, 0.7);
   --accent1: rgba(133, 96, 136, 1);
-  --zeus: rgba(220, 195, 119);
 }
 
 .aapa-pjlist .aapa-header {
