@@ -629,3 +629,63 @@
   font-size: 10px;
   text-decoration: none;
 }
+
+.aapa-info .aapa-index, .rsm .aapa-index {
+  background: var(--bkgr1);
+  font-family: 'Inter';
+  font-size: 12px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.aapa-info .aapa-index a, .aapa-rsm .aapa-index a {
+  display: flex;
+  height: calc(48px + 24px);
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid var(--color1);
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: var(--color1);
+  justify-content: center;
+  opacity: 0.5;
+  gap: 0px 12px;
+  transition: 0.5s ease-in;
+}
+
+.aapa-info .aapa-index i, .aapa-rsm .aapa-index i {
+  width: 24px;
+  height: 24px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  line-height: 100%;
+  font-weight: 300;
+}
+
+.aapa-info .aapa-index b, .aapa-rsm .aapa-index b {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 100%;
+}
+
+.aapa-info .aapa-index span, .aapa-rsm .aapa-index span {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.aapa-info .aapa-index a:hover, .aapa-rsm .aapa-index a:hover {
+  opacity: 1;
+  --color1: var(--accent1);
+}
