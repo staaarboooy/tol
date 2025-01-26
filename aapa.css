@@ -630,7 +630,7 @@
   text-decoration: none;
 }
 
-.aapa-info .aapa-index, .rsm .aapa-index {
+.aapa-info .aapa-index, .aapa-rsm .aapa-index {
   background: var(--bkgr1);
   font-family: 'Inter';
   font-size: 12px;
