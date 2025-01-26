@@ -913,3 +913,164 @@
   color: var(--accent1);
   font-weight: 700;
 }
+
+/*tablilla de rol*/
+.aapa-tabrol {
+  width: 600px;
+  box-sizing: border-box;
+  min-height: 400px;
+  border: var(--border1);
+  margin: auto;
+  border-radius: 12px;
+  line-height: 0%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  --taccent: rgba(133, 96, 136, 0.7);
+  --accent1: rgba(133, 96, 136, 1);
+}
+
+.aapa-tabrol .aapa-header {
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: var(--border1);
+  background: var(--bkgr2);
+  min-height: 120px;
+  padding: 0px 60px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+}
+
+.aapa-header .aapa-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.aapa-header .aapa-title strong {
+  font-size: 18px;
+  font-family: 'Cinzel';
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 100%;
+  color: var(--accent1);
+}
+
+.aapa-header .aapa-title span {
+  font-size: 9px;
+  font-family: 'Inter';
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 2px;
+}
+
+.aapa-header .aapa-flag {
+  width: 152px;
+  background: var(--accent1);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color2);
+  font-size: 48px;
+  line-height: 100%;
+}
+
+.aapa-header .aapa-flag i {font-weight: 100;}
+
+.aapa-header .aapa-flag:before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-left: 12px solid var(--bkgr2);
+  border-right: 12px solid transparent;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid var(--bkgr2);
+}
+
+.aapa-header .aapa-flag:after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid var(--bkgr2);
+  border-top: 60px solid var(--bkgr2);
+  border-bottom: 60px solid transparent;
+}
+
+.aapa-tabrol .aapa-text {
+  background: var(--bkgr1);
+  line-height: 120%;
+  font-family: 'Inter';
+  font-size: 12px;
+  padding: 60px 72px;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  border-bottom: var(--border1);
+}
+
+.aapa-tabrol .aapa-text strong {
+  color: var(--accent1);
+}
+
+.aapa-footer {
+  background: var(--bkgr2);
+  display: flex;
+  gap: 0px;
+  padding-right: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 36px;
+}
+
+.aapa-tabrol .aapa-data {
+  font-size: 9px;
+  font-family: 'Inter';
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  text-align-last: justify;
+  width: 100%;
+}
+
+.aapa-tabrol .aapa-data i {
+  color: var(--accent1);
+  font-size: 7px;
+  vertical-align: 1px;
+  font-weight: 900;
+  margin: 0px 3px;
+}
+
+.aapa-footer .aapa-img {
+  width: 156px;
+  min-width: 156px;
+  height: 96px;
+  background: var(--accent1);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: right;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(0.3);
+}
+
+.aapa-footer .aapa-img:after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-right: 12px solid var(--bkgr2);
+  border-left: 12px solid transparent;
+  border-top: 48px solid var(--bkgr2);
+  border-bottom: 48px solid var(--bkgr2);
+}
