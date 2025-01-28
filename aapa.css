@@ -329,6 +329,7 @@
   background-size: cover;
   filter: grayscale(0.5);
   box-sizing: border-box;
+  border: 0px!important;
 }
 
 .aapa-insc .aapa-info {
