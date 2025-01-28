@@ -320,9 +320,11 @@
   border-bottom: 60px solid transparent;
 }
 
-.aapa-insc .aapa-img {
+.aapa-insc .aapa-info .aapa-img {
   background-image: url(https://images.pexels.com/photos/2031965/pexels-photo-2031965.jpeg);
-  width: 192px;
+  width: 192px!important;
+  max-width: 192px;
+  min-width: 192px;
   height: 144px;
   background-size: cover;
   filter: grayscale(0.5);
@@ -332,8 +334,13 @@
 .aapa-insc .aapa-info {
   display: flex;
   align-items: center;
-  border-bottom: var(--border1);
   height: 144px;
+  width: 100%;
+  border-radius: 0px;
+  border: none;
+  border-bottom: var(--border1);
+  min-height: 144px;
+  flex-direction: row;
 }
 
 .aapa-insc .aapa-data {
