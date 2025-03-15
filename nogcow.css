@@ -1,0 +1,418 @@
+/*resume*/
+.nogcow-rsm {
+  margin: 50px auto;
+  box-sizing: border-box;
+  width: 840px;
+  padding: 12px;
+  border: var(--border2);
+  background: var(--bkgr2);
+  line-height: 0%;
+  color: var(--color1);
+}
+
+.nogcow-rsm .nogcow-body {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  border: var(--border2);
+  background: var(--bkgr1);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nogcow-rsm .nogcow-title {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+  background: var(--bkgr2);
+  border: var(--border2);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 60px;
+  align-items: left;
+  overflow: hidden;
+  gap: 0px 12px;
+  justify-content: center;
+}
+
+.nogcow-rsm .nogcow-title i {
+  color: var(--accent1);
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  margin-left: -12px;
+  line-height: 100%;
+}
+
+.nogcow-rsm .nogcow-title b {
+  width: 100%;
+  line-height: 100%;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 24px;
+  color: var(--accent1);
+}
+
+.nogcow-rsm .nogcow-title span {
+  width: 100%;
+  line-height: 100%;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 9px;
+  color: var(--color1);
+  letter-spacing: 1.2px;
+}
+
+.nogcow-rsm .nogcow-data {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  background: var(--bkgr2);
+  border: var(--border2);
+  display: flex;
+  overflow: hidden;
+  gap: 12px;
+  margin: -1px 0px;
+}
+
+.nogcow-rsm .nogcow-data div {
+  width: 100%;
+  padding: 12px;
+  line-height: 100%;
+  font-size: 9px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  border: var(--border2);
+  background: var(--bkgr1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nogcow-rsm .nogcow-data i {
+  color: var(--accent1);
+  font-size: 12px;
+}
+
+.nogcow-rsm .nogcow-chrs {
+  background: var(--bkgr2);
+  border: var(--border2);
+  min-height: 300px;
+  width: 40%;
+  box-sizing: border-box;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: calc(160px * 2 + 24px * 3);
+}
+
+.nogcow-chrs .nogcow-chr {
+  width: 100%;
+  box-sizing: border-box;
+  border: 12px solid var(--accent1);
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.nogcow-chr .chr-pic {
+  width: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: multiply;
+  filter: grayscale(1);
+}
+
+.nogcow-chr .chr-data {
+  width: 100%;
+  min-height: 100%;
+  margin-top: -0px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(000, 000, 000, 0.5);
+  backdrop-filter: blur(2px);
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  padding: 12px;
+  box-sizing: border-box;
+  gap: 6px;
+  color: var(--text1);
+  margin-top: -0px;
+  opacity: 0;
+  transition: 1s ease-out;
+}
+
+.nogcow-chr:hover .chr-data {
+  margin-top: -136px;
+  opacity: 1;
+}
+
+.nogcow-chr .chr-data strong {
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  line-height: 100%;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.nogcow-chr .chr-data div {
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 100%;
+  font-size: 9px;
+  font-family: 'Montserrat';
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  opacity: 0.75;
+  font-style: italic;
+}
+
+.nogcow-chr .chr-data i {
+  color: var(--accent1);
+  font-size: 12px;
+  margin-left: -6px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nogcow-rsm .nogcow-desc {
+  background: var(--bkgr2);
+  border: var(--border2);
+  min-height: 300px;
+  width: 60%;
+  box-sizing: border-box;
+  padding: 36px;
+  margin-left: -1px;
+  line-height: 120%;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  height: calc(160px * 2 + 24px * 3);
+  overflow-y: auto;
+}
+
+.nogcow-rsm .nogcow-desc strong {
+  color: var(--accent1);
+  font-weight: 800;
+}
+
+.nogcow-rsm .nogcow-desc span {
+  background-color: var(--accent1);
+  font-weight: 600;
+  display: block-inline;
+  color: var(--text1);
+  padding: 3px 6px 2px;
+  border: var(--border1);
+  text-transform: uppercase;
+  font-size: 9px;
+}
+
+:root {
+  --accent1: #9881b5;
+  --accent2: #86ac7b;
+  --accent3: #86ac7b;
+  --border1: 1px solid #edebed;
+  --border2: 1px solid #bdbcbd;
+  --bordercl: 1px solid #86ac7b;
+  --bkgr1: #ffffff;
+  --bkgr2: #f9f9f9;
+  --backima: url(https://i.servimg.com/u/f15/20/52/99/91/fondo_10.png);
+  --text1: #ffffff;
+  --thadow: 0px 0px 5px rgba(217, 234, 211, 0.8);
+  --color1: #313131;
+  --color2: #ffffff;
+  --fondotrans: rgba(249, 249, 249, 0.4);
+}
+
+body {
+  background: #fff;
+}
+
+/*post de rol*/
+.nogcow-rol {
+  margin: 50px auto;
+  box-sizing: border-box;
+  width: 840px;
+  padding: 12px;
+  border: var(--border2);
+  background: var(--bkgr2);
+  line-height: 0%;
+  color: var(--color1);
+}
+
+.nogcow-rol .nogcow-body {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  border: var(--border2);
+  background: var(--bkgr1);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nogcow-rol .nogcow-title {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+  background: var(--bkgr2);
+  border: var(--border2);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 60px;
+  align-items: left;
+  overflow: hidden;
+  gap: 0px 24px;
+  justify-content: center;
+}
+
+.nogcow-rol .nogcow-title i {
+  color: var(--accent1);
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  margin-left: -12px;
+  line-height: 100%;
+}
+
+.nogcow-rol .nogcow-title b {
+  width: 100%;
+  line-height: 100%;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 24px;
+  color: var(--accent1);
+}
+
+.nogcow-rol .nogcow-title span {
+  width: 100%;
+  line-height: 100%;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 9px;
+  color: var(--color1);
+  letter-spacing: 1.2px;
+}
+
+.nogcow-rol .nogcow-data {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  background: var(--bkgr2);
+  border: var(--border2);
+  display: flex;
+  overflow: hidden;
+  gap: 12px;
+  margin: -1px 0px;
+}
+
+.nogcow-rol .nogcow-data div {
+  width: 100%;
+  padding: 12px;
+  line-height: 100%;
+  font-size: 9px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  border: var(--border2);
+  background: var(--bkgr1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nogcow-rol .nogcow-data i {
+  color: var(--accent1);
+  font-size: 12px;
+}
+
+.nogcow-rol .nogcow-avatar {
+  background: var(--bkgr2);
+  border: var(--border2);
+  border-right: 0px;
+  min-height: 300px;
+  width: 301px;
+  box-sizing: border-box;
+  padding: 36px 0px 36px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nogcow-avatar img {
+  width: 100%;
+  box-sizing: border-box;
+  border: 12px solid var(--accent1);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-size: cover;
+  position: sticky;
+  top: 36px;
+}
+
+.nogcow-rol .nogcow-desc {
+  background: var(--bkgr2);
+  min-height: 300px;
+  width: calc(100% - 301px);
+  box-sizing: border-box;
+  padding: 36px;
+  border: var(--border2);
+  border-left: 0px;
+  line-height: 120%;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+:root {
+  --accent1: #9881b5;
+  --accent2: #86ac7b;
+  --accent3: #86ac7b;
+  --border1: 1px solid #edebed;
+  --border2: 1px solid #bdbcbd;
+  --bordercl: 1px solid #86ac7b;
+  --bkgr1: #ffffff;
+  --bkgr2: #f9f9f9;
+  --backima: url(https://i.servimg.com/u/f15/20/52/99/91/fondo_10.png);
+  --text1: #ffffff;
+  --thadow: 0px 0px 5px rgba(217, 234, 211, 0.8);
+  --color1: #313131;
+  --color2: #ffffff;
+  --fondotrans: rgba(249, 249, 249, 0.4);
+}
+
+body {
+  background: #fff;
+}
