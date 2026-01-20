@@ -1,0 +1,214 @@
+body {
+  background-image: url(https://i.imgur.com/80zG5Aa.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: grayscale(1);
+  background-color: rgba(120,120,120,1);
+  background-blend-mode: multiply;
+}
+
+.httba-fondo .starboy {--accent: rgba(205, 178, 128, 1);}
+.httba-fondo .springwizard {--accent: rgba(133, 171, 241, 1);}
+
+/*resumen*/
+
+.httba-fondo {
+  width: 100%;
+  max-width: 850px;
+  box-sizing: border-box;
+  padding: 120px;
+  margin: 0px 20px;
+  background-image: url(https://i.imgur.com/80zG5Aa.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(24, 24, 24, 1);
+  background-blend-mode: overlay;
+  margin: auto;
+  border: 1px solid var(--accent);
+  color: #E5E4E2;
+  --accent: rgba(156, 181, 169, 1);
+  font-size: 13px;
+  line-height: 0px;
+  font-family: 'Roboto';
+}
+
+.httba-fondo .httba-rsm {
+  width: 100%;
+  background-color: rgba(12, 12, 12, 0.6);
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.httba-rsm .httba-titulo {
+  width: 100%;
+  padding: 12px 0px 60px;
+  text-align: center;
+  border-bottom: var(--border2);
+  line-height: 100%;
+  font-size: 48px;
+  font-family: 'Girassol';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+}
+
+.httba-rsm .httba-texto {
+  width: 100%;
+  line-height: 120%;
+  text-align: justify; 
+  hyphens: auto;
+  word-break: break-word;
+  padding: 60px 12px;
+  box-sizing: border-box;
+  border-bottom: var(--border2);
+}
+
+.httba-rsm .httba-pjs {
+  display: flex;
+  column-gap: 24px;
+  padding: 60px 0px;
+  border-bottom: var(--border2);
+}
+
+.httba-rsm .httba-pj {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  align-items: center;
+  width: 100%;
+}
+
+.httba-pj .pj-foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-size: cover;
+  border: 1px solid var(--accent);
+  background-color: rgba(255,255,255,1);
+  background-blend-mode: luminosity;
+}
+
+.httba-pj .pj-nombre {
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #3b3b3b;
+  letter-spacing: 1px;
+  line-height: 120%;
+  text-align: center;
+  font-family: 'Girassol';
+}
+
+.httba-pj .pj-nombre span {
+  text-transform: uppercase;
+  color: var(--accent);
+  letter-spacing: 0px;
+  line-height: 100%;
+}
+
+.httba-pj .pj-datos {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  line-height: 100%;
+}
+
+.httba-rsm .httba-datos {
+  line-height: 100%;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--accent);
+  padding: 60px 12px 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*post rol*/
+.httba-fondo .httba-post {
+  width: 100%;
+  background-color: rgba(12, 12, 12, 0.6);
+  padding: 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}
+
+.httba-post .httba-encabezado {
+  width: 100%;
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+}
+
+.httba-encabezado .httba-icono {
+  width: 96px;
+  min-width: 96px;
+  height: 96px;
+  border-radius: 100%;
+  border: 1px solid var(--accent);
+  background-size: cover;
+  background-color: rgba(255,255,255,1);
+  background-blend-mode: luminosity;
+  box-sizing: border-box;
+}
+
+.httba-encabezado .httba-titulo {
+  line-height: 100%;
+  font-size: 30px;
+  font-family: 'Girassol';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.httba-encabezado .httba-titulo span {
+  display: flex;
+  font-size: 15px;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #3b3b3b;
+  font-weight: 400;
+  column-gap: 6px;
+  align-items: center;
+  width: 100%;
+}
+
+.httba-encabezado .httba-titulo span:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: var(--accent);
+  display: block;
+}
+
+.httba-post .httba-texto {
+  width: 100%;
+  line-height: 120%;
+  text-align: justify; 
+  hyphens: auto;
+  word-break: break-word;
+  padding: 0px 12px;
+  box-sizing: border-box;
+}
+
+.httba-post .httba-texto strong {
+  color: var(--accent);
+}
+
+.httba-post .httba-texto u {
+  font-weight: 700;
+}
+
+.httba-post .httba-datos {
+  border-top: var(--border2);
+  line-height: 100%;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #3b3b3b;
+  padding: 60px 12px 0px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--accent);
+}
