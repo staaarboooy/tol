@@ -6,8 +6,8 @@ body {
   background-blend-mode: multiply;
 }
 
-.httba-fondo .starboy {--accent: rgba(205, 178, 128, 1);}
-.httba-fondo .springwizard {--accent: rgba(133, 171, 241, 1);}
+.httba-fondo.springwizard, .httba-fondo .springwizard {--accent: rgba(205, 178, 128, 1)!important;}
+.httba-fondo.starboy, .httba-fondo .starboy {--accent: rgba(133, 171, 241, 1)!important;}
 
 /*resumen*/
 
