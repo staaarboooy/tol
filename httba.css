@@ -1,10 +1,10 @@
-body {
+/*body {
   background-image: url(https://i.imgur.com/80zG5Aa.jpeg)!important;
   background-attachment: fixed!important;
   background-size: cover!important;
   background-color: rgba(120,120,120,1);
   background-blend-mode: multiply;
-}
+}*/
 
 .httba-fondo.springwizard, .httba-fondo .springwizard {--accent: rgba(248, 201, 136, 1)!important;}
 .httba-fondo.starboy, .httba-fondo .starboy {--accent: rgba(198, 167, 109, 1)!important;}
@@ -13,15 +13,12 @@ body {
 
 .httba-fondo {
   width: 100%;
-  max-width: 850px;
+  max-width: 822px;
   box-sizing: border-box;
   padding: 120px;
-  margin: 0px 20px;
   background-image: url(https://i.imgur.com/80zG5Aa.jpeg);
   background-size: cover;
   background-attachment: fixed;
-  background-color: rgba(24, 24, 24, 1);
-  background-blend-mode: overlay;
   margin: auto;
   border: 1px solid var(--accent);
   color: #E5E4E2;
@@ -33,7 +30,7 @@ body {
 
 .httba-fondo .httba-rsm {
   width: 100%;
-  background-color: rgba(12, 12, 12, 0.6);
+  background-color: rgba(12, 12, 12, 0.84);
   padding: 60px;
   box-sizing: border-box;
 }
@@ -125,7 +122,7 @@ body {
 /*post rol*/
 .httba-fondo .httba-post {
   width: 100%;
-  background-color: rgba(12, 12, 12, 0.6);
+  background-color: rgba(12, 12, 12, 0.84);
   padding: 60px;
   box-sizing: border-box;
   display: flex;
