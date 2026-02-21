@@ -1,4 +1,4 @@
-.tbome-back:hover .tbome-pic div {
+.tbome-back:hover .tbome-pic div.tbome-back.post:hover .tbome-pic div {
   filter: grayscale(0.24); 
   transition: 1s ease-in;
 }
