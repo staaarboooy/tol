@@ -1,3 +1,9 @@
+.tbome-back:hover .tbome-pic div {
+  filter: grayscale(0.24); 
+  transition: 1s ease-in;
+}
+
+
 .tbome-back {
   width: 600px;
   min-height: 600px;
@@ -49,6 +55,7 @@
   height: 100%;
   background-size: cover;
   opacity: 60%;
+  transition: 1s ease-in;
 }
 
 .tbome-header .tbome-title {
@@ -137,9 +144,10 @@
   width: 100%;
   height: 100%;
   background-size: cover;
-  filter: grayscale(0.8);
+  filter: grayscale(1);
   border-radius: 50%;
   background-position: center;
+  transition: 1s ease-in;
 }
 
 .tbome-character .tbome-name {
@@ -176,9 +184,10 @@
   width: 100%;
   height: 100%;
   background-size: cover;
-  filter: grayscale(0.8);
+  filter: grayscale(1);
   border-radius: 50%;
   background-position: center;
+  transition: 1s ease-in;
 }
 
 .tbome-header .tbome-quote {
