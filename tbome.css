@@ -3,7 +3,6 @@
   transition: 1s ease-in;
 }
 
-
 .tbome-back {
   width: 600px;
   min-height: 200px;
@@ -226,4 +225,5 @@
   opacity: 60%;
   align-self: flex-end;
   font-style: italic;
+  margin-bottom: -60px;
 }
