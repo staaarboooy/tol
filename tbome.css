@@ -191,8 +191,8 @@
 
 .tbome-header .tbome-quote {
   font-size: 9px;
-  font-weight: 600;
-  letter-spacing: 1.2px;
+  font-weight: 400;
+  letter-spacing: 0.96px;
   width: 100%;
   line-height: 100%;
   text-transform: uppercase;
@@ -225,5 +225,5 @@
   opacity: 60%;
   align-self: flex-end;
   font-style: italic;
-  margin-bottom: -60px;
+  margin-bottom: -48px;
 }
