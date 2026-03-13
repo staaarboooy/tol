@@ -20,6 +20,7 @@
   padding: 60px;
   row-gap: 36px;
   line-height: 0%;
+  z-index: 0;
 }
 
 .tbome-back:before {
@@ -31,6 +32,7 @@
   min-height: calc(100% - 6px);
   position: absolute;
   box-sizing: border-box;
+  z-index: -1;
 }
 
 .tbome-header {
