@@ -203,7 +203,7 @@
   background-size: cover;
   background-position: center;
   position: sticky;
-  top: 60px;
+  top: 120px;
   outline: 12px solid var(--bkgr2);
   z-index: 1;
 }
