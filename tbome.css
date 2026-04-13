@@ -4,6 +4,7 @@
 }
 
 .tbome-back {
+  --accent1: #9881b5;
   width: 600px;
   min-height: 200px;
   margin: 24px auto;
